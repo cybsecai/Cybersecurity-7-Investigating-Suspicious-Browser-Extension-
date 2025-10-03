@@ -1,6 +1,5 @@
 # Cybersecurity-7-Investigating-Suspicious-Browser-Extension-
-ased on the audit of the client's Web browser extentions, a thorough analysis was conducted to identify and remove suspicious or high-risk extensions.
-🛠️ Task 7: Identified and Removed Suspicious Browser Extensions Report (FINAL)
+
 I. Executive Summary
 The browser audit identified one extension in a critical corrupted state (which was repaired) and flagged a second extension, Mendeley Web Importer, for excessive permissions, violating the Principle of Least Privilege. The unnecessary, high-risk extension was removed. The security analysis confirmed that Length is the single most dominant factor in password strength, a concept reinforced by the need to strictly limit unnecessary attack surfaces in the browser.
 
