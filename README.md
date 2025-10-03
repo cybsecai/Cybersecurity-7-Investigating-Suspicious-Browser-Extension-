@@ -10,7 +10,7 @@ The browser audit identified one extension in a critical corrupted state (which 
 
 | Extension Name | Status/Permissions | Security Flag(s) Identified | Action Taken |
 | :--- | :--- | :--- | :--- |
-| McAfee® WebAdvisor | Corrupted Status initially | Critical State Fixed. The repair eliminated the immediate threat of a failed or unstable security validation. | Repaired & Retained |
+| Security WebAdvisor | Corrupted Status initially | Critical State Fixed. The repair eliminated the immediate threat of a failed or unstable security validation. | Repaired & Retained |
 | Mendeley Web Importer | "Read and change all your data on all websites." | High Permission, High Risk. Violation of the Principle of Least Privilege. | Removed |
 | Save to Pocket | Permissions not fully audited. | Known service, but retained for necessity pending a formal permissions check. | Retained (Pending D-Audit) |
 | Google Docs Offline | Pre-installed, trusted source. | Necessary function, low risk. | Retained |
@@ -22,7 +22,7 @@ The browser audit identified one extension in a critical corrupted state (which 
 
 | Status | Observation/Finding | Rationale |
 | :--- | :--- | :--- |
-| Before Audit | The browser had a critical vulnerability (Corrupted Extension) and unnecessary security surface area (High Permissions). | The corrupted state of McAfee could cause instability; the high permissions of Mendeley posed a silent data theft risk. |
+| Before Audit | The browser had a critical vulnerability (Corrupted Extension) and unnecessary security surface area (High Permissions). | The corrupted state of SecurityExtension could cause instability; the high permissions of Mendeley posed a silent data theft risk. |
 | After Audit | Critical corruption fixed. Security surface area significantly reduced by removing the high-risk Mendeley extension. | Eliminating unnecessary high-privilege extensions is the best way to secure the browser against session hijacking or keylogging. |
 
 ---
